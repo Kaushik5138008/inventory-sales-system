@@ -9,7 +9,7 @@ public class DBUtil {
         Connection connection = null;
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "SYSTEM", "1234");
+            connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "YOUR_USERNAME", "YOUR_PASSWORD");
         } catch (ClassNotFoundException | SQLException e) {
             System.out.println(e);
         }

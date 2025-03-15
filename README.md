@@ -17,12 +17,12 @@ This is a **console-based** Java application that manages inventory and sales op
 ```
 Inventory-Sales-System/
 │── src/
-│   ├── com.wipro.sales.util/       # Database connection class
-│   ├── com.wipro.sales.bean/       # Bean classes (Stock, Sales, SalesReport)
-│   ├── com.wipro.sales.dao/        # Data Access Object (DAO) classes
-│   ├── com.wipro.sales.service/    # Business logic (Administrator class)
-│   ├── com.wipro.sales.main/       # Main application (SalesApplication.java)
-│   ├── com.wipro.sales.gui/        # GUI classes (HomePage.java, InsertStockPage.java, etc.)
+│   ├── com.flames.sales.util/       # Database connection class
+│   ├── com.flames.sales.bean/       # Bean classes (Stock, Sales, SalesReport)
+│   ├── com.flames.sales.dao/        # Data Access Object (DAO) classes
+│   ├── com.flames.sales.service/    # Business logic (Administrator class)
+│   ├── com.flames.sales.main/       # Main application (SalesApplication.java)
+│   ├── com.flames.sales.gui/        # GUI classes (HomePage.java, InsertStockPage.java, etc.)
 │── README.md
 │── .gitignore
 ```
@@ -105,20 +105,20 @@ ORDER BY Profit_Amount DESC, S.Sales_ID ASC;
 ## Running the Java Application  
 ### **1. Compile and Run in Console Mode**  
 ```sh
-javac -d bin src/com/wipro/sales/main/SalesApplication.java
-java -cp bin com.wipro.sales.main.SalesApplication
+javac -d bin src/com/flames/sales/main/SalesApplication.java
+java -cp bin com.flames.sales.main.SalesApplication
 ```
 
 ### **2. Run in GUI Mode**  
 ```sh
-javac -d bin src/com/wipro/sales/gui/HomePage.java
-java -cp bin com.wipro.sales.gui.HomePage
+javac -d bin src/com/flames/sales/gui/HomePage.java
+java -cp bin com.flames.sales.gui.HomePage
 ```
 
 ---
 
 ## GUI Screens  
-The project includes the following GUI screens under `com.wipro.sales.gui`:  
+The project includes the following GUI screens under `com.flames.sales.gui`:  
 - **HomePage.java** – Main dashboard  
 - **InsertStockPage.java** – Add new stock items  
 - **InsertSalesPage.java** – Record a sale  

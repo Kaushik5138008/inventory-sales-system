@@ -143,5 +143,4 @@ This project is for educational purposes. Feel free to use and modify it.
 ---
 
 ### **Author**  
-Developed by **Team Flames** for the **Inventory and Sales System** project.  
-```
+Developed by **Team Flames** for the **Inventory and Sales System** project. 

@@ -24,7 +24,6 @@ Inventory-Sales-System/
 │   ├── com.flames.sales.main/       # Main application (SalesApplication.java)
 │   ├── com.flames.sales.gui/        # GUI classes (HomePage.java, InsertStockPage.java, etc.)
 │── README.md
-│── .gitignore
 ```
 
 ---
